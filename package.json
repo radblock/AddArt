@@ -1,0 +1,36 @@
+{
+  "title": "Addendum",
+  "name": "addendum",
+  "version": "2.2.6",
+  "id" : "development@add-art.org",
+  "description": "Replace ads with art.",
+  "main": "index.js",
+  "author": "slambert,owise1",
+  "engines": {
+    "firefox": ">=35.0a1"
+  },
+  "scripts": {
+    "watch": "watchify -t [ babelify --presets react ] src/popup.js -o data/js/popup.js",
+    "build": "browserify -t [ babelify --presets react ] src/popup.js -o data/js/popup.js",
+    "jpm" : "npm run build; jpm run"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "ads",
+    "art"
+  ],
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "ramda": "^0.19.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "reflux": "^0.3.0",
+    "watchify": "^3.7.0"
+  },
+  "permissions": {
+    "cross-domain-content": [
+      "http://add-art.org/feed"
+    ]
+  }
+}
