@@ -173,7 +173,7 @@ function go(){
   // installed for the first time?
   if (!ss.storage.lastOpen) {
     ss.storage.lastOpen = Date.now()
-    tabs.open('http://add-art.org/update')
+    tabs.open('http://radblock.xyz')
   }
 
 }
