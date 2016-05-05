@@ -35,7 +35,7 @@ function fetch (url, txt) {
   return d.promise
 }
 
-fetch( "https://raw.githubusercontent.com/owise1/addendum-exhibitions/master/exhibitions.json")
+fetch( "http://list.radblock.xyz")
 .then(function (res){
   ss.storage.exhibitions = res.sort(helpers.exhibitionsSort)
   if (!ss.storage.disableAutoUpdate) {
