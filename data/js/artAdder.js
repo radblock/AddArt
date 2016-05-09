@@ -27,8 +27,8 @@
         position : 'relative'
       })
       var art  = document.createElement('a')
-      art.href = piece.link || exhibition.link || 'http://add-art.org'
-      art.title = piece.title || exhibition.title + ' | replaced by Add-Art'
+      art.href = piece.link || exhibition.link || 'http://radblock.xyz'
+      art.title = piece.title || exhibition.title + ' | replaced by RADBLOCK'
       art.target = '_blank'
       art.style.width = origW + 'px'
       art.style.height = origH + 'px'

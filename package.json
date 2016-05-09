@@ -1,11 +1,11 @@
 {
-  "title": "Addendum",
-  "name": "addendum",
+  "title": "RADBLOCK",
+  "name": "RADBLOCK",
   "version": "2.2.6",
-  "id" : "development@add-art.org",
+  "id" : "tcleve@saic.edu",
   "description": "Replace ads with art.",
   "main": "index.js",
-  "author": "slambert,owise1",
+  "author": "amonks,effincleveland",
   "engines": {
     "firefox": ">=35.0a1"
   },
@@ -17,7 +17,9 @@
   "license": "GPL-3.0",
   "keywords": [
     "ads",
-    "art"
+    "art",
+    "gifs",
+    "saic"
   ],
   "dependencies": {
     "babel-preset-react": "^6.3.13",
