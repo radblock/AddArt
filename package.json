@@ -1,7 +1,7 @@
 {
   "title": "RADBLOCK",
   "name": "RADBLOCK",
-  "version": "2.2.6",
+  "version": "3.9.9",
   "id" : "tcleve@saic.edu",
   "description": "Replace ads with art.",
   "main": "index.js",

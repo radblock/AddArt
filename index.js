@@ -155,7 +155,7 @@ function go(){
 
   button = ToggleButton({
     id: "my-button",
-    label: "Add-Art",
+    label: "RADBLOCK",
     icon: {
       "16": "./images/icon-16.png",
       "32": "./images/icon-32.png",
