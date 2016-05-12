@@ -29138,8 +29138,8 @@ var NewSourceView = React.createClass({
             'Create your own essay on ',
             React.createElement(
               'a',
-              { href: 'http://radblock.xyz/', target: '_blank' },
-              'radblock.xyz'
+              { href: 'http://add-art.org/essays/', target: '_blank' },
+              'add-art.org'
             )
           )
         )
